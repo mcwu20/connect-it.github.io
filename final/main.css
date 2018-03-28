@@ -1,0 +1,81 @@
+/* Connect It Nov. 2017 */
+
+*{
+  padding: 0;
+  margin: 0;
+  }
+		
+main {
+  width: 1200px;
+  height: 900px;
+  /* Gradient */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f6f6f6+47,ededed+100;White+3D+%231 */
+  background: #ffffff; /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover,  #ffffff 0%, #f6f6f6 47%, #ededed 100%); /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover,  #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center,  #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  }
+	
+body {
+  position: relative;
+  width: 1200px;
+  height: 900px;
+  margin: auto;
+  }
+	
+nav {
+  font-size: 38px;
+  font-family: verdana;
+  }
+			
+a:link {
+  text-decoration: none;
+  color: gray;
+  }
+	
+a:visited {
+  color: gray;
+  }
+	
+a:hover {
+  color: #d8d7d7;
+  transform: scale(1.25,1.25);	
+  }
+				
+a:active {
+  color: navy;
+  }
+				
+header {
+  position: absolute;
+  background: silver;
+  left: 275px;
+  top: 50px;
+  font-size: 50px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  border-radius: 30px;
+  padding: 20px 20px 20px 20px;
+  box-shadow: 10px 10px 75px;
+  }	
+	
+#sub {
+  font-size: 20px;
+  text-align: center;
+  }
+	
+#home, #about ,#features, #mission, #contact {
+  background: black;
+  padding: 15px 15px 15px 15px;
+  border-radius: 30px;
+  box-shadow: inset 10px 10px 75px;
+  }
+			
+article {
+  position: absolute;
+  top: 500px;
+  left: 300px;
+  width: 600px;
+  font-size: 25px;
+  text-align: center;
+  }		
